@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="small-container">
     <h1>Employee</h1>
     <EmployeeTable/>
   </div>
@@ -17,7 +17,7 @@ export default {
 </script>
 
 <style>
-.ma {
-
-}
+  .small-container{
+    max-width: 680px;
+  }
 </style>
