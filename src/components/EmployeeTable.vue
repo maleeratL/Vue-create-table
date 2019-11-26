@@ -1,5 +1,5 @@
 <template>
-    <div id="employee-table">
+    <div id="employee-table" class="small-container">
         <table>
             <thead>
                 <tr>
@@ -28,5 +28,7 @@
 </script>
 
 <style scoped>
-
+    .small-container{
+        max-width: 680px;
+    }
 </style>
